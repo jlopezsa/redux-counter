@@ -1,6 +1,6 @@
-const ButtonAdd = (handledAdd) =>{
+const ButtonAdd = ({handleAdd}) =>{
     return(
-        <button type='button' onClick={handledAdd}>
+        <button type='button' onClick={handleAdd}>
             +1
         </button>
     )

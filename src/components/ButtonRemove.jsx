@@ -1,6 +1,6 @@
-function ButtonRemove(handledRemove){
+const ButtonRemove = ({handleRemove}) =>{
     return(
-        <button type='button' onClick={handledRemove}>
+        <button type='button' onClick={handleRemove}>
             -1
         </button>
     )

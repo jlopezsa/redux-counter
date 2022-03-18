@@ -1,6 +1,8 @@
-function Counter(){
+const Counter = ({counter})=>{
     return(
-        <h2>Counter: </h2>
+        <div>
+            Counter:{counter}
+        </div>
     )
 }
 
