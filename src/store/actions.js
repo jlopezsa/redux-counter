@@ -1,6 +1,6 @@
 
 // Actions creators
-export const add = (val) => {
+/*export const add = (val) => {
   return {
     type: 'ADD',
     payload: val,
@@ -15,3 +15,16 @@ export const remove = (val) => ({
   error: false,
   meta: {},
 })
+*/
+
+export const add = () => {
+  return {
+    type: 'ADD'
+  };
+}
+
+export const remove = () => {
+  return{
+    type: 'REMOVE'
+  }
+}
