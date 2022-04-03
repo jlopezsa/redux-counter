@@ -18,14 +18,18 @@ function App() {
   const handleRemove = () =>{
     setCount(count - 1)
   }
-  
+
   return (
     <div className="App">
+      <h2>Example of a single counter</h2>
+      <h2>using Redux</h2>
+      <hr />
       <Counter counter={count} />  {/*prop count es uun valor}*/}
-      <div className='buttons'>   
+      <div className='buttons'>
         <ButtonAdd handleAdd={handleAdd} />  {/*prop handleAdd} es una fuunción*/}
         <ButtonRemove handleRemove={handleRemove} />
       </div>
+      <hr />
     </div>
   );
 }
