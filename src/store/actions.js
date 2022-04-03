@@ -1,17 +1,17 @@
 
 // Actions creators
 export const add = (val) => {
-    return {
-        type: 'ADD',
-        payload: {},
-        error: false,
-        meta: {},
-    };
+  return {
+    type: 'ADD',
+    payload: val,
+    error: false,
+    meta: {},
+  };
 }
 
-expor const remove = (val) =({
-  type: 'ADD',
-        payload: {},
-        error: false,
-        meta: {},
+export const remove = (val) => ({
+  type: 'REMOVE',
+  payload: val,
+  error: false,
+  meta: {},
 })

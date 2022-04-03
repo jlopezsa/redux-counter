@@ -1,5 +1,6 @@
 import { createStore } from "redux"
+import reducer from "./reducers";
 
-const store = createStore(()=>{}); // Función que retorna un objeto
+const store = createStore(reducer); // Función que retorna un objeto
 
 export default store;
